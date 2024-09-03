@@ -1,0 +1,52 @@
+{
+    "assistant_id": "asst_4kenZTzl3e8grp6XvwLwohIR",
+    "assistant_details": {
+        "build_params": {
+            "model": "gpt-4-1106-preview",
+            "name": "Tool User",
+            "description": "Assistant to use tools made by the tool creator.",
+            "instructions": "Use the tools to accomplish the task",
+            "tools": [
+                {
+                    "type": "code_interpreter"
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "torque_calculator",
+                        "description": "This tool calculates the torque given a force applied at a distance from the axis of rotation, taking into account the angle of application.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "force": {
+                                    "type": "number",
+                                    "description": "The magnitude of the force applied (in Newtons)."
+                                },
+                                "distance": {
+                                    "type": "number",
+                                    "description": "The perpendicular distance from the axis of rotation to the line of action of the force (in meters)."
+                                },
+                                "angle": {
+                                    "type": "number",
+                                    "description": "The angle in degrees between the line of action of the force and the lever arm (optional, defaults to 90 if not supplied). Let's assume, if no angle is given, the force is perpendicular to distance which is the most common case of using torque.",
+                                    "default": 90
+                                }
+                            },
+                            "required": [
+                                "force",
+                                "distance"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "file_ids": [],
+            "metadata": {}
+        },
+        "file_paths": [],
+        "functions": {
+            "torque_calculator": "import math\n\ndef torque_calculator(force, distance, angle=90):\n    # Convert angle from degrees to radians for calculation.\n    angle_radians = math.radians(angle)\n    # Calculate the torque.\n    torque = force * distance * math.sin(angle_radians)\n    return torque"
+        },
+        "dependencies": []
+    }
+}

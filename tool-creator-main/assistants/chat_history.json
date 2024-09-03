@@ -1,0 +1,44 @@
+[
+    {
+        "start_date": "2023-12-15 13:58:16",
+        "end_date": "2023-12-15 13:59:34",
+        "assistant": "Tool Creator",
+        "bot_id": "asst_fO5zh1Mg2ymq0m0t77Dzv2xd",
+        "thread_id": "thread_tgXRy88OSjNy1IFzYhWVseyz"
+    },
+    {
+        "start_date": "2023-12-15 15:26:26",
+        "end_date": "2023-12-15 15:39:56",
+        "assistant": "Tool User",
+        "bot_id": "asst_cXO7d15obl5EuzzmHfy6jCGe",
+        "thread_id": "thread_QqMOa5muvv7cQAASQnyUVjJs"
+    },
+    {
+        "start_date": "2023-12-15 15:40:27",
+        "end_date": "2023-12-15 15:42:07",
+        "assistant": "Tool Creator",
+        "bot_id": "asst_CZJF5ItW480Zh8Uo8TPL1A5l",
+        "thread_id": "thread_oZ1YcdRuvmHT2iKseizSWCMj"
+    },
+    {
+        "start_date": "2023-12-16 11:21:20",
+        "end_date": "2023-12-16 11:36:13",
+        "assistant": "Tool Creator",
+        "bot_id": "asst_U6xXaOlL5THnbFMKHyPpwO9u",
+        "thread_id": "thread_COhmjtlgKrSz7FxfFvcaokG9"
+    },
+    {
+        "start_date": "2023-12-19 12:36:50",
+        "end_date": "2023-12-19 12:37:45",
+        "assistant": "Tool Creator",
+        "bot_id": "asst_BNLJm92oLX9TpxTmHX49UZtD",
+        "thread_id": "thread_6mseCfQME2MVk9pgKMKE3r5o"
+    },
+    {
+        "start_date": "2023-12-19 13:32:35",
+        "end_date": "2023-12-19 13:33:26",
+        "assistant": "Tool Creator",
+        "bot_id": "asst_2kDMLeqgM4sFhETKYs2ZqwhO",
+        "thread_id": "thread_mSTwthElYtD4wIgenH9n9hzi"
+    }
+]

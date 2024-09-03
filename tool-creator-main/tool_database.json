@@ -1,0 +1,9 @@
+{
+    "tools": [
+        {
+            "name": "VolumeCalculator3D",
+            "description": "A tool that can calculate the volume of any 3D shape.",
+            "code": "class VolumeCalculator3D:\n    def __init__(self):\n        pass\n\n    def calculate_volume(self, shape: str, dimensions: dict) -> float:\n        volume = None\n        if shape == 'cube':\n            volume = math.pow(dimensions['side_length'], 3)\n        # Add logic to calculate volume for other shapes\n        return volume\n"
+        }
+    ]
+}

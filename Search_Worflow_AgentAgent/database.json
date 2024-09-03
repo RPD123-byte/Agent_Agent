@@ -1,0 +1,58 @@
+{
+    "coffee": {
+        "varieties": {
+            "arabica": {
+                "origin": "Ethiopia",
+                "flavor_profile": {
+                    "acidity": "high",
+                    "body": "medium",
+                    "aroma": "fruity, floral"
+                },
+                "growing_conditions": {
+                    "altitude": "high (1000-2000m)",
+                    "climate": "mild, wet, and tropical"
+                }
+            },
+            "robusta": {
+                "origin": "Tropical Africa",
+                "flavor_profile": {
+                    "acidity": "low",
+                    "body": "full",
+                    "aroma": "earthy, woody"
+                },
+                "growing_conditions": {
+                    "altitude": "low (0-800m)",
+                    "climate": "hot and humid"
+                }
+            }
+        },
+        "processing_methods": {
+            "washed": {
+                "description": "Coffee cherries are de-pulped and fermented before drying",
+                "flavor_profile": "clean, bright, and fruity"
+            },
+            "natural": {
+                "description": "Coffee cherries are dried whole without removing the fruit from the bean",
+                "flavor_profile": "sweet, syrupy, and fruity"
+            },
+            "honey": {
+                "description": "Coffee cherries are partially de-pulped and dried with some fruit mucilage still intact",
+                "flavor_profile": "complex, syrupy, and fruity"
+            }
+        },
+        "brewing_methods": {
+            "espresso": {
+                "description": "A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground coffee beans",
+                "characteristics": "rich and creamy with a strong coffee flavor"
+            },
+            "pour_over": {
+                "description": "Coffee brewed by pouring hot water over coffee grounds in a filter",
+                "characteristics": "clean, bright, and nuanced flavor"
+            },
+            "french_press": {
+                "description": "Coffee brewed by steeping coarsely-ground coffee beans in hot water and then pressing down a metal filter to separate the coffee grounds from the liquid",
+                "characteristics": "full-bodied, rich, and robust"
+            }
+        }
+    }
+}
